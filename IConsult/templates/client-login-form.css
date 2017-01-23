@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background: #56ab2f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #56ab2f, #a8e063) no-repeat center center fixed;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #56ab2f, #a8e063) no-repeat center center fixed;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+::selection {
+    background: #BDBDBD;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    margin-top: 20%;
+    color: #424242;
+}
+
+button {
+    background-color: #424242;
+    border: none;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    background: #BDBDBD;
+    font-family: 'Raleway', sans-serif;
+}
+
+#login {
+    font-size: 20px;
+}

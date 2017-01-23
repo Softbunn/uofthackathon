@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+  <title>Payment</title>
+
+  <link rel="stylesheet" href="paypal.css"/>
+  <link rel="stylesheet" href="../css/style.css"/>
+
+</head>
+<body>
+    <h1 class="PaypalHeader">Paypal Payment</h1>
+    <div class="PaypalDetails">
+        <form action="../controllers/checkout.php" method="post">
+        <table border="0">
+            <tr>
+                <th>Card Type:</th>
+                <td><select>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th>Card Number:</th>
+                <td><input type="text" value=""></td>
+            </tr>
+            <tr>
+                <th>CVV:</th>
+                <td><input type="text" value="" maxlength="3"></td>
+            </tr>
+            <tr>
+                <th>Name on Card:</th>
+                <td><input type="text" value="" maxlength="50"></td>
+            </tr>
+            <tr>
+                <th>Expiry Date:</th>
+                <td width="3"><select>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                    <option>05</option>
+                    <option>06</option>
+                    <option>07</option>
+                    <option>08</option>
+                    <option>09</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option></select>
+                    <select>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                    <option>2022</option>
+                    <option>2023</option>
+                    <option>2024</option>
+                    <option>2025</option>
+                    <option>2026</option>
+                    <option>2027</option>
+                    <option>2028</option>
+                    <option>2029</option>
+                    <option>2030</option>
+                    <option>2031</option>
+                    <option>2032</option>
+                    <option>2033</option>
+                    <option>2034</option>
+                    <option>2035</option>
+                    <option>2036</option>
+                    <option>2037</option></select>
+                </td>
+            </tr>
+            <tr>
+                <th>Billing Address:</th>
+                <td><input type="text" value="" maxlength="100"></td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td><input name="email" type="text" value="" maxlength="100"></td>
+            </tr>
+            <tr>
+                <th>Amount</th>
+                <td><input type="number"  name="points" placeholder="Amount in CAD dollars"></td>
+            </tr>
+            <tr>
+                <th>Prices</th>
+                <td>10 points = $50</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><input class='paypalitem' value="Check out!" type="submit"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    <a class="button" href="../controllers/logout.php">Log out</a>
+</body>
+
+</html>

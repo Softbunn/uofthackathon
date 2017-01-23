@@ -1,0 +1,29 @@
+/* 
+    Created on : Jan 22, 2017, 8:29:45 AM
+    Author     : ASharaf
+*/
+#sendLinkButton{
+    font-size: 14px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-left: 1%;
+}
+
+
+#chat{
+    border: 2px solid black;
+    margin-top: 5%;
+    margin-left: 1%;
+    height: 430px;
+    overflow:scroll;
+    width: 25%;
+}
+
+.link{
+    margin-left: 2%;
+}
+
+iframe{
+    float: right;
+}
+

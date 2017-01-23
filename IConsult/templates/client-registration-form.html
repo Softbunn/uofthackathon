@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="consultant-registration-form.css">
+    <script src="../js/javascript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+    <title>Registration</title>
+</head>
+
+<body>
+    <div id="content" style="container-fluid">
+        <form action="../controllers/client-registration.php" method="post">
+            <h1>Registration</h1>
+            <p>First name:
+                <input type="text" name="first">
+            </p>
+            <p>Last name:
+                <input type="text" name="last">
+            </p>
+            <p>Email:
+                <input type="email" name="email">
+            </p>
+            <p>Password:
+                <input type="password" name="password" onkeyup="myFunction()" id="pass1">
+            </p>
+            <p>Confirm password:
+                <input type="password" name="confirm-pass" onkeyup="myFunction()" id="pass2">
+            </p>
+            <span class="error" id="spanpass"></span><br>
+            <input id="submit" type="submit">
+        </form>
+    </div>
+</body>
+
+</html>
