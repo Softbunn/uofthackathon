@@ -1,1 +1,2 @@
-# uofthackathon
+# UOFTHACKS IV 
+It is a tool which allows users (clients) to register appointments with experts in different fields which presumably already work as consultants in firms or offices or clinical maybe. Instead of going to each consultant's website as canada consultants does, here is to make everybody's life easier. And instead of paying $150 for 30 minutes when you only need 10 minutes, here is to make everybody's life cheaper. Our website combines all consultants into one website.
