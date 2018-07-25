@@ -1,2 +1,2 @@
-# The Consultant (UOFTHACKS IV)
+# The Consultant (UOFTHACKS IV) - 2017
 It's a tool which allows users (clients) to register appointments with experts in different fields which presumably already work as consultants in firms. Instead of going to each consultant's website, we're here to make everybody's life easier. And instead of paying $150 for 30 minutes when you only need 10 minutes, here it is to make everybody's life cheaper. Our website combines all consultants into one website.
